@@ -1,0 +1,21 @@
+section.heroBanner {
+    padding: 16rem 0 20rem 0;
+    display: flex;
+    /* justify-content: start; */
+}
+
+.heroCard {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroCard h1 {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 0;
+}
