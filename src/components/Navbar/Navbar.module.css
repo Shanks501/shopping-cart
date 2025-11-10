@@ -1,0 +1,56 @@
+nav {
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbarContentContainer {
+    composes: container from global;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    float: left;
+}
+
+li {
+    display: block;
+}
+
+.navText {
+    gap: 4rem;
+}
+
+.navIcon {
+    gap: 2rem;
+}
+
+.mainLogo {
+    background: rgb(10, 10, 10);
+    width: 150px;
+}
+
+.scroll {
+    background: var(--primary-color);
+    transition: background-color 0.2s ease-in-out;
+}
