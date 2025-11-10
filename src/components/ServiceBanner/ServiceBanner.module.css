@@ -1,0 +1,25 @@
+.serviceSection {
+    padding: 9rem 0;
+    display: flex;
+}
+
+.serviceCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.serviceSection h4,
+p {
+    margin: 0;
+}
+
+.serviceSection h4 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.serviceSection p {
+    color: #908f8d;
+}
