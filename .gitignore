@@ -13,6 +13,7 @@ dist-ssr
 *.local
 TODO.md
 Design
+*Zone.Identifier
 
 # Editor directories and files
 .vscode/*
