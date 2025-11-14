@@ -14,7 +14,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={offset > 20 && styles.scroll}>
+        <nav className={offset > 20 ? styles.scroll : undefined}>
             <div className={styles.navbarContentContainer}>
                 <div className={styles.mainLogo}>Logo</div>
                 <ul className={styles.navText}>
