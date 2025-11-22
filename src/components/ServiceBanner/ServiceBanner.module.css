@@ -1,6 +1,7 @@
 .serviceSection {
     padding: 9rem 0;
     display: flex;
+    gap: 2rem;
 }
 
 .serviceCard {
