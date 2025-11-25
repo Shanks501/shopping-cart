@@ -1,5 +1,4 @@
 .sectionProductGrid {
-    padding: 2rem 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
@@ -37,4 +36,11 @@ p {
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--tertiary-color);
+}
+
+.buttonContainer {
+    grid-column: 1 / 5;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }

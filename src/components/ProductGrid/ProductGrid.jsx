@@ -1,5 +1,5 @@
 import useFetchData from "../../hooks/useFetchData";
-
+import Button from "../Button/Button";
 import styles from "./ProductGrid.module.css";
 
 export default function ProductGrid() {
@@ -33,6 +33,9 @@ export default function ProductGrid() {
             <ProductCard productId={3} />
             <ProductCard productId={2} />
             <ProductCard productId={1} />
+            <div className={styles.buttonContainer}>
+                <Button type={"button"} text={"View all Products"} styleClass={"primaryButton"} />
+            </div>
         </div>
     );
 }
