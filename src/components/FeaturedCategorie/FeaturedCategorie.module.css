@@ -1,0 +1,48 @@
+.sectionFeaturedCategorie {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 8rem 4rem;
+}
+
+.sectionFeaturedCategorie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.catagorySection {
+    width: 100%;
+    height: 250px;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+
+.catagorySection:hover {
+    opacity: 80%;
+    transition: 0.8s;
+    cursor: pointer;
+    color: white;
+}
+
+.catagorySectionPrintedTshirts {
+    composes: catagorySection;
+    background-image: url(../../assets/images/category1.jpg);
+}
+
+.catagorySectionMonoTshirts {
+    composes: catagorySection;
+    background-image: url(../../assets/images/category2.jpg);
+}
+
+.catagorySectionHoodies {
+    composes: catagorySection;
+    background-image: url(../../assets/images/category3.jpg);
+}
