@@ -1,0 +1,36 @@
+.seactionSalesBanner {
+    width: 100%;
+    height: 450px;
+    color: var(--primary-color);
+    background-image: url(../../assets/images/SalesBackground-img.jpg);
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.cardText h4 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.cardText p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.cardRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 400px;
+}
