@@ -3,6 +3,7 @@ import Herobanner from "../../components/Herobanner/Herobanner";
 import ServiceBanner from "../../components/ServiceBanner/ServiceBanner";
 import ProductGrid from "../../components/ProductGrid/ProductGrid";
 import FeaturedCategorie from "../../components/FeaturedCategorie/FeaturedCategorie";
+import SalesBanner from "../../components/SalesBanner/SalesBanner";
 
 import styles from "./Homepage.module.css";
 
@@ -20,6 +21,7 @@ export default function Homepage() {
                 <ProductGrid />
             </div>
             <FeaturedCategorie />
+            <SalesBanner />
         </>
     );
 }
