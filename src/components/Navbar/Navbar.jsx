@@ -16,7 +16,7 @@ export default function Navbar() {
     return (
         <nav className={offset > 20 ? styles.scroll : undefined}>
             <div className={styles.navbarContentContainer}>
-                <div className={styles.mainLogo}>Logo</div>
+                <div className={styles.mainLogo}>UNICLUB</div>
                 <ul className={styles.navText}>
                     <li>
                         <a href="">Home</a>
