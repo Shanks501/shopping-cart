@@ -4,6 +4,7 @@ import ServiceBanner from "../../components/ServiceBanner/ServiceBanner";
 import ProductGrid from "../../components/ProductGrid/ProductGrid";
 import FeaturedCategorie from "../../components/FeaturedCategorie/FeaturedCategorie";
 import SalesBanner from "../../components/SalesBanner/SalesBanner";
+import Footer from "../../components/Footer/Footer";
 
 import styles from "./Homepage.module.css";
 
@@ -22,6 +23,7 @@ export default function Homepage() {
             </div>
             <FeaturedCategorie />
             <SalesBanner />
+            <Footer />
         </>
     );
 }
