@@ -2,6 +2,7 @@ import styles from "./Navbar.module.css";
 import Icon from "@mdi/react";
 import { mdiMagnify, mdiCart, mdiHeart, mdiAccount } from "@mdi/js";
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 export default function Navbar() {
     const [offset, setOffset] = useState(0);
@@ -19,13 +20,13 @@ export default function Navbar() {
                 <div className={styles.mainLogo}>UNICLUB</div>
                 <ul className={styles.navText}>
                     <li>
-                        <a href="">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a href="">Shop</a>
+                        <Link to="/shop">Shop</Link>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
                 <ul className={styles.navIcon}>
