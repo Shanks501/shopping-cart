@@ -1,18 +1,3 @@
-.sectionProductGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-}
-
-.sectionProductGrid h2 {
-    font-size: 3rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin: 0 0 2rem 0;
-    grid-column: 1 / 5;
-    text-align: center;
-}
-
 .productCard {
     display: flex;
     flex-direction: column;
@@ -25,22 +10,4 @@
     align-items: center;
     padding: 4rem 0;
     background-color: #e5e4e5;
-}
-
-.sectionProductGrid h4,
-p {
-    margin: 0;
-}
-
-.sectionProductGrid p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: var(--tertiary-color);
-}
-
-.buttonContainer {
-    grid-column: 1 / 5;
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
 }
