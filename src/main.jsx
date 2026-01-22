@@ -4,8 +4,8 @@ import "./assets/styles/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router";
 
 import App from "./App.jsx";
-import Shop from "./pages/Shop/Shop.jsx";
-import Contact from "./pages/Contact/Contact.jsx";
+import Shop from "./pages/ShopPage/ShopPage.jsx";
+import Contact from "./pages/ContactPage/ContactPage.jsx";
 import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
 
 const router = createBrowserRouter([
