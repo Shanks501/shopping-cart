@@ -2,7 +2,6 @@
 
 :root {
     box-sizing: border-box;
-    outline: 1px solid red;
     --primary-font: "Jost", sans-serif;
     --primary-color: #f8f8f8;
     --secondary-color: #010000;
