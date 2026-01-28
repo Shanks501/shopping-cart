@@ -11,3 +11,8 @@
     border-radius: 10px;
     padding: 1rem;
 }
+
+.productSearch {
+    composes: input-component;
+    padding-right: 0;
+}
