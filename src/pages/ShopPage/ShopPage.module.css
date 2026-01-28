@@ -1,3 +1,33 @@
 .backgroundImageLayer {
     background-image: url("../../assets/images/banner-img2.jpg");
 }
+.productListings {
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.sectionProductGrid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.sectionProductGrid_Sort {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / 4;
+}
+
+.sectionProductGrid_Sort p {
+    color: var(--tertiary-color);
+}
+
+.sectionProductGrid_Sort select {
+    border: none;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+}
