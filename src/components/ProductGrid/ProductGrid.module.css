@@ -11,3 +11,9 @@
     padding: 4rem 0;
     background-color: #e5e4e5;
 }
+
+.backgroundLayer:hover {
+    background-color: #c5c5c5;
+    transition: 0.8s;
+    cursor: pointer;
+}
