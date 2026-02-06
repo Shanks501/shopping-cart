@@ -14,7 +14,7 @@ export default function Herobanner() {
                     <Button
                         type={"button"}
                         text={"Start shopping"}
-                        styleClass={"secondaryButton-hover"}
+                        styleClass={"secondaryBtnHover"}
                     />
                 </Link>
             </div>

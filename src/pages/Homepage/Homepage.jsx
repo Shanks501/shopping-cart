@@ -27,7 +27,7 @@ export default function Homepage() {
                         <Button
                             type={"button"}
                             text={"View all Products"}
-                            styleClass={"primaryButton"}
+                            styleClass={"primaryBtn"}
                         />
                     </div>
                 </div>

@@ -25,7 +25,7 @@ export default function SalesBanner() {
                         <Button
                             type={"button"}
                             text={"REGISTER IT NOW"}
-                            styleClass={"primaryButton-hover"}
+                            styleClass={"primaryBtnHover"}
                         />
                     </div>
                 </div>
