@@ -14,7 +14,10 @@ export default function Herobanner() {
                     <Button
                         type={"button"}
                         text={"Start shopping"}
-                        styleClass={"secondaryBtnHover"}
+                        variant={"primaryBtn"}
+                        shape={"roundedFull"}
+                        border={"thinWhiteSm"}
+                        data-hover={"true white"}
                     />
                 </Link>
             </div>

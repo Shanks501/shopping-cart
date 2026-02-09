@@ -27,7 +27,9 @@ export default function Homepage() {
                         <Button
                             type={"button"}
                             text={"View all Products"}
-                            styleClass={"primaryBtn"}
+                            variant={"primaryBtn"}
+                            shape={"roundedMd"}
+                            data-hover={"true"}
                         />
                     </div>
                 </div>

@@ -7,41 +7,35 @@ Button {
 
 .primaryBtn {
     background-color: var(--secondary-color);
-    border: 2px;
     color: var(--primary-color);
+    border: none;
     font-size: 1.2rem;
     text-transform: uppercase;
-    border-radius: 10px;
     font-weight: 500;
     padding: 1rem 3rem;
 }
 
-.primaryBtnHover {
-    composes: primaryBtn;
-}
-
-.primaryBtnHover:hover {
+.primaryBtn[data-hover="true"]:hover {
     transition: 0.2s ease-in;
-    border: 2px;
     background-color: var(--secondary-color-light);
 }
 
-.secondaryButton {
-    background-color: var(--secondary-color);
-    border: 2px solid var(--primary-color);
-    color: var(--primary-color);
+.primaryBtn[data-hover="true white"]:hover {
+    transition: 0.4s ease-in;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.secondaryBtn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.2rem;
     text-transform: uppercase;
-    border-radius: 100px;
     font-weight: 500;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
 }
 
-.secondaryButton-hover {
-    composes: secondaryButton;
-}
-
-.secondaryButton-hover:hover {
+.secondaryBtn[data-hover="true"]:hover {
     transition: 0.5s ease-in;
     border: 2px;
     background-color: var(--primary-color);
@@ -49,7 +43,7 @@ Button {
     color: var(--secondary-color);
 }
 
-.tertiaryButton {
+.tertiaryBtn {
     background-color: #e4e4e4;
     border: none;
     border-radius: 5px;
@@ -58,14 +52,33 @@ Button {
     font-size: 1.2rem;
 }
 
-.selectionButton {
-    composes: tertiaryButton;
+.selectionBtn {
+    composes: tertiaryBtn;
 }
-.selectionButton-active {
-    composes: selectionButton;
+.selectionBtn[data-active="true"] {
     background-color: #bdbdbd;
 }
 
-.selectionButton:hover {
+.selectionBtn[data-hover="true"]:hover {
     background-color: #bdbdbd;
+}
+
+.roundedSm {
+    border-radius: 5px;
+}
+
+.roundedMd {
+    border-radius: 10px;
+}
+
+.roundedFull {
+    border-radius: 100px;
+}
+
+.solidWhiteSm {
+    border: 2px solid var(--primary-color);
+}
+
+.thinGreySm {
+    border: 1px solid #41403e33;
 }
