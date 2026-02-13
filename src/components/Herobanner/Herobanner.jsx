@@ -16,7 +16,7 @@ export default function Herobanner() {
                         text={"Start shopping"}
                         variant={"primaryBtn"}
                         shape={"roundedFull"}
-                        border={"thinWhiteSm"}
+                        border={"solidWhiteSm"}
                         data-hover={"true white"}
                     />
                 </Link>
