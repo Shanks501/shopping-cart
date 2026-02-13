@@ -7,6 +7,7 @@ import App from "./App.jsx";
 import Shop from "./pages/ShopPage/ShopPage.jsx";
 import Contact from "./pages/ContactPage/ContactPage.jsx";
 import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
+import ProductPage from "./pages/ProductPage/ProductPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -22,10 +23,14 @@ const router = createBrowserRouter([
         path: "contact",
         element: <Contact />,
     },
+    {
+        path: "product/:id",
+        element: <ProductPage />,
+    },
 ]);
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
         <RouterProvider router={router} />
-    </StrictMode>
+    </StrictMode>,
 );
