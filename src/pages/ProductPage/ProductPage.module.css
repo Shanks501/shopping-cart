@@ -1,0 +1,76 @@
+.productSection {
+    margin: 10rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 4rem;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.productInfo span,
+h2,
+h6 {
+    margin: 0;
+}
+
+.productInfo span,
+h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.productInfo p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--tertiary-color);
+    font-weight: 400;
+}
+
+.productSize h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.backgroundLayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+    background-color: #e5e4e5;
+}
+
+.sizeButtonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.productActions {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.productQuantity {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.productQuantity Input {
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.productQuantity Button {
+    padding: 0.4rem 1.2rem;
+}
