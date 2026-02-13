@@ -16,3 +16,10 @@
     composes: input-component;
     padding-right: 0;
 }
+
+.secondaryInput {
+    composes: input-component;
+    border-radius: 1px;
+    border: 1px solid #bdbdbd;
+    padding: 1rem 1.2rem;
+}

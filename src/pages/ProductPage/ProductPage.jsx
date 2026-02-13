@@ -78,7 +78,7 @@ export default function ProductPage() {
                                 <Input
                                     type={"text"}
                                     value={productQuantity}
-                                    styleClass={"productSize"}
+                                    styleClass={"secondaryInput"}
                                 />
                                 <Button
                                     type={"button"}
