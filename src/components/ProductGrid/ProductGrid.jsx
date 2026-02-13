@@ -1,5 +1,6 @@
 import useFetchData from "../../hooks/useFetchData";
 import styles from "./ProductGrid.module.css";
+import { Link } from "react-router";
 
 export default function ProductGrid() {
     function ProductCard({ productId }) {
@@ -8,13 +9,14 @@ export default function ProductGrid() {
         if (loading) return console.log("Loading...");
         if (error) return console.log("A network error was encountered");
 
-        console.log(data.title.split("-"));
         const productTitle = data.title.split("-");
         return (
             <div className={styles.productCard}>
-                <div className={styles.backgroundLayer}>
-                    <img src={data.image} alt={"placeholder text"} width="200" height="250" />
-                </div>
+                <Link to={`/product/${data.id}`}>
+                    <div className={styles.backgroundLayer}>
+                        <img src={data.image} alt={"placeholder text"} width="200" height="250" />
+                    </div>
+                </Link>
                 <p>{productTitle[0]}</p>
                 <span></span>
             </div>
